@@ -241,7 +241,7 @@ if(ENABLE_LATTE)
     include(ExternalProject)
     ExternalProject_Add(latte_build
       URL https://github.com/lanl/LATTE/archive/v1.0.1.tar.gz
-      URL_MD5 5137e28cb1a64444bd571c98c98a6eee
+      URL_MD5 3514489125879c2d68fc9afe6dd0a9b9 
       SOURCE_SUBDIR cmake
       CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR> -DCMAKE_POSITION_INDEPENDENT_CODE=${CMAKE_POSITION_INDEPENDENT_CODE}
       )
